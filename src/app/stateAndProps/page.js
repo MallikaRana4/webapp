@@ -5,22 +5,22 @@ export default function stateAandProps(){
             <p className="text-1xl  text-center mb-2">How to use props in React</p>
             <div className="flex justify-center gap-6 mb-8 flex-wrap">
                 <div className="border rounded-md shadow p-4 w-64 bg-white">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="h-3 w-3 rounded-full bg-green-500"></span>
+                    <div className="flex items-center gap-2 mb-2">
+                        <span className="h-3 w-3 rounded-full bg-green-500"></span>
                         <h2 class="text-lg font-semibold">Alice Johnson</h2>
                     </div>
                     <p>Age: 28</p>
                     <p>Email: alice@example.com</p>
-                    <p class="mt-2 font-medium text-green-600">Online</p>
+                    <p className="mt-2 font-medium text-green-600">Online</p>
                 </div>
                 <div className="border rounded-md shadow p-4 w-64 bg-white">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="h-3 w-3 rounded-full bg-red-500"></span>
-                        <h2 class="text-lg font-semibold">Bob Smith</h2>
+                    <div className="flex items-center gap-2 mb-2">
+                        <span className="h-3 w-3 rounded-full bg-red-500"></span>
+                        <h2 className="text-lg font-semibold">Bob Smith</h2>
                     </div>
                     <p>Age: 32</p>
                     <p>Email: bob@example.com</p>
-                    <p class="mt-2 font-medium text-red-600">Offline</p>
+                    <p className="mt-2 font-medium text-red-600">Offline</p>
                 </div>
             </div>
         </div>

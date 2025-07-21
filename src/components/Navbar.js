@@ -11,12 +11,13 @@ export default function Navbar(){
                 <div className='ml-10 flex items-baseline space-x-8'>
                     <Link href="/">Home Page</Link>
                     <Link href="/about">About Page</Link>
-                    <Link href="/contactUs">Contact Us</Link>
+                    {/* <Link href="/contactUs">Contact Us</Link> */}
                     <Link href="/state">State</Link>
                     <Link href="/stateAndProps">State and Props</Link>
                     <Link href="/userform">User Form</Link>
                     <Link href="/resources">Resources</Link>
                     <Link href="/taskTracker">Task Tracker</Link>
+                    <Link href="/products">Products</Link>
                 </div>
             </div>
         </nav>
